@@ -16,4 +16,10 @@ Documentation for Angular 1 can be found at [Angular website] (http://angularjs.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Both AngularJS and the Laravel framework are open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Installation
+
+Requires PHP 5.6, Apache 2, mySQL 5
+composer create-project laravel/laravel=5.2
+git clone  git@github.com:jmdryden/larang-todo.git
