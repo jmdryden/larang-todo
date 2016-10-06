@@ -12,6 +12,12 @@ return [
     | the usual Laravel view path has already been registered for you.
     |
     */
+    
+    // We can relocate and reroute all our views in public folder. This
+    // is a good practice when we’re using Single Page Application such as Angular into 
+    // our web app and unify all files in public section, including views.
+    // By default, our views were located in resource folder. Change it to public/views
+    // which is good practice for a Single Page Application
 
     'paths' => [
         //realpath(base_path('resources/views')), // moved to public for AngularJS

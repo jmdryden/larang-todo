@@ -1,0 +1,1295 @@
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=800"/>
+		
+		<title>/assets/js/respond.proxy.gif - [
+	
+  
+    View
+  
+
+
+  
+] Cascade Server
+		</title>
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/css/images/favicon.ico"/>
+<link rel="apple-touch-icon-precomposed" href="/css/images/apple-touch-icon-precomposed.png">
+<!-- JQuery UI basic theme -->
+<link rel="stylesheet" type="text/css" href="/javascript/jquery/css/smoothness/jquery-ui-1.10.2.custom.min.css?v=7_14-06262015"/>
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css?v=7_14-06262015"/>
+
+<link rel="stylesheet" type="text/css" href="/css/menu.css?v=7_14-06262015"/>
+<!-- YUI Stylesheets -->
+<link rel="stylesheet" type="text/css" href="/javascript/yui-2.9/yui/build/container/assets/skins/sam/container-skin.css"/>
+<link rel="stylesheet" type="text/css" href="/css/broadcast.css?v=7_14-06262015"/>
+
+<!-- TextExt custom css -->
+<link rel="stylesheet" type="text/css" href="/javascript/jquery/css/jquery-textext.css?v=7_14-06262015"/>
+
+<!-- FontAwesome -->
+<link href="/css/font-awesome-4.0.3/css/font-awesome.min.css?v=7_14-06262015" rel="stylesheet"/>
+
+
+<script type="text/javascript" src="/javascript/underscore-min.js?v=7_14-06262015"></script>
+
+<script type="text/javascript" src="/javascript/onload.js?v=7_14-06262015"></script>
+<script type="text/javascript">
+  Cascade.ContextPath = '';
+</script>
+
+<script type="text/javascript" src="/javascript/json2.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/interact.js?v=7_14-06262015"></script>
+
+<script type="text/javascript" src="/javascript/wysiwyg.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/ajax-rpc.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/validate.js?v=7_14-06262015"></script>
+
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="/javascript/pngfix.js?v="></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="/javascript/placeholder-spans.min.js?v=7_14-06262015"></script>
+<![endif]-->
+
+<!-- JQuery -->
+<script type="text/javascript" src="/javascript/jquery/jquery-1.7.2-hh-custom.min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery-ui-1.10.2.min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery-ui-autocomplete-html.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery-hashtable-1.1.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery.iframe-transport.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery.fileupload-8.2.1.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery.cookie.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/jquery/jquery-textext-full-1.3.1.min.js?v=7_14-06262015"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/javascript/jquery/jquery.flot-0.8.1/excanvas.min.js?v=7_14-06262015"></script>
+<![endif]-->
+
+<!-- Misc -->
+<script type="text/javascript" src="/javascript/moment-2.6.0.min.js"></script>
+
+
+<!-- Yahoo Libraries -->
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/yahoo/yahoo-min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/yahoo-dom-event/yahoo-dom-event.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/animation/animation.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/container/container-min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/menu/menu.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/json/json-min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/element/element-min.js?v=7_14-06262015"></script>
+<script type="text/javascript" src="/javascript/yui-2.9/yui/build/connection/connection-min.js?v=7_14-06262015"></script>
+
+
+<script type="text/javascript" src="/javascript/broadcast.js?v=7_14-06262015"></script>
+<script type="text/javascript">
+YAHOO.util.Event.onContentReady("global-nav", function () {
+	var oMenuBar = new YAHOO.widget.MenuBar("menu", {	 
+		autosubmenudisplay: false, 
+		hidedelay: 1000,		
+		lazyload: true,
+		scrollincrement: 3					
+		});
+	oMenuBar.render();
+});
+
+
+	
+
+var canMove = true;
+</script>
+
+<script type="text/javascript" src="/javascript/tiny_mce-3.5.11/tiny_mce.js?v=7_14-06262015"></script>
+
+
+      
+	
+  
+    <script type="text/javascript" src="/javascript/drafts.js?v="></script>
+    
+		
+	
+  
+
+
+	
+	</head>
+	<body>
+		
+		
+		
+		
+		<script type="text/javascript">
+			var currentSiteId = '07b38303c0a8508c682ea741406a2d05';
+			
+				var entityId = '07b3877bc0a8508c682ea74148d32539';
+				var entityType = 'file';
+			
+			var errorOccuredMessage = 'An error occurred';
+		  Cascade.Messages["title.discard.draft"] = 'Discard Draft';
+		  Cascade.Messages["prompt.cancel"] = 'Cancel';
+		</script>
+		<p class="hidden"><a href="#center-stage">Skip navigation</a></p>
+		<div id="wrapper">
+			<div id="header">
+				<a href="/home.act"><img src="/css/images/logo-small.gif" alt="Cascade Home"/></a>
+				<span id="siteselection">
+	<span class="ui-combobox"><input type="text" id="siteselect" name="siteselect" onchange="changeSite('')" value="demo.unm.edu"/><img class="loading" src="/css/icons/loading.gif"></span>
+	
+</span>
+				<span id="current-user">
+					jdryden
+          
+					|
+					<a href="#" accesskey="q" class="top-dropdown" title="Access Key q" onclick="toggleDisplay('quick-links', this, true); return false">Quick Links</a>
+					|
+					<a href="/preferences.act?tab=u" title="My Settings">My Settings</a>
+					|
+					<a href="#" class="top-dropdown" onclick="toggleDisplay('help-menu', this, true); return false;">Help</a>					
+					|
+					<a href="http://ideas.hannonhill.com" title="Give Us Feedback" onclick="return openAndFocus(this.href, 'global_help');">Give Us Feedback</a>
+					| 
+					<a href="/logoff.act">Log Out</a>
+				</span>
+				
+				<div id="quick-links" style="display: none;" class="menu-content">
+					<table>
+						<tr>
+							<th><a href="/home.act">Dashboard</a></th>
+							<th><a href="/history.act">History</a></th>
+							
+								<th><a href="/admin/dashboard.act">Administration</a></th>
+							
+						</tr>
+						<tr>
+							<td>
+								<ul>
+									<li><a href="/home.act?tab=m" class="icon-message">Messages</a></li>
+									<li><a href="/home.act?tab=w" class="icon-workflow">Workflows</a></li>
+									<li><a href="/home.act?tab=co" class="icon-lock">Locked Assets</a></li>
+									<li><a href="/home.act?tab=d" class="icon-draft">Drafts</a></li>
+									<li><a href="/home.act?tab=s" class="icon-stale">Stale Content</a></li>
+									
+										<li><a href="/rb.act?siteId=07b38303c0a8508c682ea741406a2d05" class="icon-recycle">Recycle Bin</a></li>
+									
+								</ul>
+							</td>
+							<td>
+								
+									<ul>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b388adc0a8508c682ea741f781fa34&amp;type=file" class="icon-file"> assets/img/unm-logo.gif</a><a href="#" onclick="return toggleContextDropDown(this, '07b388adc0a8508c682ea741f781fa34', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38854c0a8508c682ea741138aeb10&amp;type=file" class="icon-file"> assets/css/site-styles.css</a><a href="#" onclick="return toggleContextDropDown(this, '07b38854c0a8508c682ea741138aeb10', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<a href="/home.act?" class="icon-home"> Dashboard Overview</a>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=6aeeda2dc0a8508c5b026d9fc4cf5166&amp;type=file" class="icon-file"> it.unm.edu:...ider-815.php</a><a href="#" onclick="return toggleContextDropDown(this, '6aeeda2dc0a8508c5b026d9fc4cf5166', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=f140f98dc0a8507100d2821b9c57758e&amp;type=file" class="icon-file"> it.unm.edu:.../contact.php</a><a href="#" onclick="return toggleContextDropDown(this, 'f140f98dc0a8507100d2821b9c57758e', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=2709d8e0c0a8508c630ed7914abdb567&amp;type=page" class="icon-page"> it.unm.edu:index</a><a href="#" onclick="return toggleContextDropDown(this, '2709d8e0c0a8508c630ed7914abdb567', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=11b7be02c0a85071013a7ebbce8a810b&amp;type=page" class="icon-page"> it.unm.edu:...catalog/home</a><a href="#" onclick="return toggleContextDropDown(this, '11b7be02c0a85071013a7ebbce8a810b', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=7cf533edc0a850710152946651185525&amp;type=page" class="icon-page"> it.unm.edu:...ice-original</a><a href="#" onclick="return toggleContextDropDown(this, '7cf533edc0a850710152946651185525', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=2585bee6c0a8506e00d4927f4f1195ee&amp;type=folder" class="icon-folder"> it.unm.edu:common/includes</a><a href="#" onclick="return toggleContextDropDown(this, '2585bee6c0a8506e00d4927f4f1195ee', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+											<li>
+												<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=6af0be9bc0a8508c5b026d9f3ec48480&amp;type=block_STRUCTUREDDATA" class="icon-block_STRUCTUREDDATA"> it.unm.edu:... Catalog 815</a><a href="#" onclick="return toggleContextDropDown(this, '6af0be9bc0a8508c5b026d9f3ec48480', 'block_STRUCTUREDDATA');" class="icon-context-drop-down-arrow">&#160;</a></span>
+
+											</li>
+										
+									</ul>
+								
+								&#160;
+							</td>
+						
+							<td>
+								<ul>
+									
+
+
+
+
+
+
+    
+        <li><a href="/admin/security.act" class="icon-group">Users, Groups, &amp; Roles</a></li>
+    
+
+	
+		<li>
+			<a href="/entity/open.act?type=assetfactorycontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-assetfactory">Asset Factories</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=pageconfigurationsetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-pageconfigurationset">Configuration Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=metadatasetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-metadataset">Metadata Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=structureddatadefinitioncontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-structureddatadefinition">Data Definitions</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=contenttypecontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-contenttype">Content Types</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=workflowdefinitioncontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-workflowdefinition">Workflow Definitions</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=publishsetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-publishset">Publish Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=transportcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-transport">Transports</a>
+		</li>
+	
+	
+    
+        <li>
+            <a href="/entity/open.act?type=sitedestinationcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-destination">Destinations</a>
+        </li>
+    
+	
+	
+		<li>
+			<a href="/entity/open.act?type=connectorcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-connector">Connectors</a>
+		</li>
+	
+
+								</ul>
+							</td>
+						
+						</tr>		
+						<tr>
+							<td colspan="3"><a href="#" onclick="toggleDisplay('quick-links', this); return false">Close</a></td>
+						</tr>
+					</table>
+				</div>
+				<div id="help-menu" style="display: none;" class="menu-content">
+					<ul>
+						<li>
+							<a href="http://help.hannonhill.com" onclick="toggleDisplay('help-menu', false); return openAndFocus(this.href, 'global_help');">Get Help</a>
+						</li>
+						<li>
+							<a href="http://knowledgebase.hannonhill.com" onclick="toggleDisplay('help-menu', false); return openAndFocus(this.href, 'global_help');">Knowledge base</a>
+						</li>
+						<li>
+							<a href="http://www.hannonhill.com/kb/glossary.html" onclick="toggleDisplay('help-menu', false); return openAndFocus(this.href, 'global_help');">Glossary</a>
+						</li>
+						<li>
+							<a href="/about.act">About</a>
+						</li>
+					</ul>					
+				</div>			
+			</div>
+			
+<div id="sub-header">
+	<div id="global-nav">
+		<div id="menu" class="yuimenubar">
+			<div class="bd">
+				<ul>
+					
+
+<li style="border-right: 1px solid #003366" class="system-menu"><a
+	accesskey="y">&nbsp;<span class="hidden">System</span></a>
+<div class="yuimenu">
+<div class="bd">
+<ul>
+	<li><a class="icon-search"> Search
+	</a>
+	<div class="yuimenu">
+	<div class="bd">
+	<ul>
+		<li><a href="/search.act?mode=basic">Basic</a></li>
+		<li><a href="/search.act?mode=advanced">Advanced</a></li>
+		<li>
+			<a href="/searchandreplace.act?mode=search">Replace</a>
+		</li>
+	</ul>
+	</div>
+	</div>
+	</li>
+
+	
+		<li><a href="#" class="icon-publish">Publisher</a>
+		<div class="yuimenu">
+		<div class="bd">
+		<ul>
+			<li><a href="/publisherstatus.act?siteId=07b38303c0a8508c682ea741406a2d05">Active Jobs</a></li>
+			<li><a href="/publisherstatus.act?siteId=07b38303c0a8508c682ea741406a2d05&amp;tab=sj">Scheduled Jobs</a></li>
+		</ul>
+		</div>
+		</div>
+		</li>
+	
+
+
+	
+		<li><a href="#">Utilities</a>
+		<div class="yuimenu">
+		<div class="bd">
+		<ul>
+			
+				<li><a href="/entity/sitemigration/startmigration.act">Site Migration Wizard</a></li>
+			
+			
+				<li><a href="#">Database Tools</a>
+					<div class="yuimenu">
+					<div class="bd">
+						<ul>	
+							
+								<li><a href="/loadoptimizedb.act">Optimize Database</a></li>
+							
+							
+								<li><a href="/startDatabaseExport.act">Export Database</a></li>
+							
+							
+								<li><a href="/recycleBinChecker.act">Recycle Bin Checker</a>
+								</li>
+							
+							
+								<li><a href="/pathRepairTool.act">Path Repair Tool</a>
+								</li>
+							
+						</ul>
+					</div>
+					</div>
+				</li>
+			
+			
+				<li><a href="/syncldap.act">Sync LDAP</a></li>
+			
+			
+				<li><a href="/admin/logging/configure.act">Logging</a></li>
+			
+			
+				<li><a href="/search/loadrebuildindex.act">Search Indexing</a></li>
+			
+			
+				<li>
+					<a href="/broadcastMessages.act">Broadcast Messages</a>
+				</li>
+			
+		</ul>
+		</div>
+		</div>
+	</li>
+	
+
+	
+		<li><a href="/sites/dashboard.act">Site Management</a></li>
+	
+
+	<li><a href="#">Preferences</a>
+	<div class="yuimenu">
+	<div class="bd">
+	<ul>
+		
+			<li><a href="/preferences.act">General</a></li>
+			<li><a href="/preferences.act?tab=e">Email</a></li>
+			<li><a href="/preferences.act?tab=c">Content</a></li>
+		
+		<li><a href="/preferences.act?tab=u">User</a></li>
+	</ul>
+	</div>
+	</div>
+	</li>
+
+	
+		<li><a href="#">Configuration</a>
+		<div class="yuimenu">
+		<div class="bd">
+		<ul>
+			<li><a href="/loadCustomAuthenticationConfig.act">Custom Authentication</a></li>
+			<li><a href="/loadLdapConfig.act">LDAP</a></li>
+			<li><a href="/loadPublishTriggerConfig.act">Publish Trigger</a></li>
+			<li><a href="/productLicense.act">Product License</a></li>
+		</ul>
+		</div>
+		</div>
+		</li>
+	
+</ul>
+</div>
+</div>
+</li>
+
+					<li>
+	<a href="/home.act" accesskey="h"><em>H</em>ome</a>
+</li>			
+					<li><a accesskey="n"><span class="arrow-down"><em>N</em>ew</span></a>
+<div class="yuimenu">
+<div class="bd">
+	<ul>
+		<li><a>Loading...</a></li>
+	</ul>
+	</div>
+</div>
+</li>
+					
+<li>
+	<a accesskey="i"><span class="arrow-down">H<em>i</em>story</span></a>
+	<div class="yuimenu">
+	<div class="bd">
+		<ul>
+			<li><a>Loading...</a></li>
+		</ul>
+		</div>
+	</div>
+	</li>
+</li>
+					
+
+
+
+
+
+
+
+	 
+	 	
+	 
+
+
+
+	<li><a accesskey="t"><span
+		class="arrow-down"><em>T</em>ools</span></a>
+	<div class="yuimenu">
+	<div class="bd">
+	<ul>
+		
+			<li><a href="/entity/unpack.act" class="icon-zip">Zip Archive</a></li>
+		
+		
+	
+		
+		
+			<li><a href="/entity/integratefolder.act">Integrate Folder</a></li>
+		
+		
+			<li><a href="/entity/bulkchange.act">Bulk Change</a></li>
+		
+	</ul>
+	</div>
+	</div>
+	</li>
+
+					
+
+
+	<li><a accesskey="a"><span
+		class="arrow-down"><em>A</em>dministration</span></a>
+		<div class="yuimenu">
+			<div class="bd">
+				<ul>
+					<li>
+						<a href="/admin/dashboard.act" accesskey="" class="icon-administration">Dashboard</a>
+					</li>	
+					
+
+
+
+
+
+
+    
+        <li><a href="/admin/security.act" class="icon-group">Users, Groups, &amp; Roles</a></li>
+    
+
+	
+		<li>
+			<a href="/entity/open.act?type=assetfactorycontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-assetfactory">Asset Factories</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=pageconfigurationsetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-pageconfigurationset">Configuration Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=metadatasetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-metadataset">Metadata Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=structureddatadefinitioncontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-structureddatadefinition">Data Definitions</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=contenttypecontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-contenttype">Content Types</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=workflowdefinitioncontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-workflowdefinition">Workflow Definitions</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=publishsetcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-publishset">Publish Sets</a>
+		</li>
+	
+	
+	
+		<li>
+			<a href="/entity/open.act?type=transportcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-transport">Transports</a>
+		</li>
+	
+	
+    
+        <li>
+            <a href="/entity/open.act?type=sitedestinationcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-destination">Destinations</a>
+        </li>
+    
+	
+	
+		<li>
+			<a href="/entity/open.act?type=connectorcontainer&amp;siteId=07b38303c0a8508c682ea741406a2d05" class="icon-connector">Connectors</a>
+		</li>
+	
+				
+				</ul>
+			</div>
+		</div>
+	</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="search">
+    <form action="/searchsubmit.act" method="post">
+        <div>
+            <label for="quickQuery" title="Type your search term and press Enter - Access key 3" accesskey="3">Search</label> <input type="text" id="quickQuery" name="quickQuery" onkeyup="performAjaxSearch(this)"/>
+            <input type="hidden" name="mode" value="basic" />
+            <div id="typeAheadSearchResults"><div id="typeAheadSearchResultsDiv"></div></div> 
+            <script type="text/javascript">
+                var listAllText = "List all";
+                var searchResultsText = "Search Results";
+                var errorText =  "Error";
+                var closeText = "Close";
+            </script>           
+        </div>
+    </form>
+</div>
+</div>
+			<div id="middle">
+        <div id="side-bar">
+			     
+      <ul id="tree" class="tree"><li class="container-node"><div class="fa nav-icon fa-minus-square-o" onclick="toggleChildren(this, '07b38615c0a8508c682ea7418bf7301d', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38615c0a8508c682ea7418bf7301d&amp;type=folder&amp;" class="icon-folder">Base Folder</a><a href="#" onclick="return toggleContextDropDown(this, '07b38615c0a8508c682ea7418bf7301d', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span><ul><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '07b38932c0a8508c682ea741605c3cf3', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38932c0a8508c682ea741605c3cf3&amp;type=folder&amp;" class="icon-folder">_internal</a><a href="#" onclick="return toggleContextDropDown(this, '07b38932c0a8508c682ea741605c3cf3', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-minus-square-o" onclick="toggleChildren(this, '07b3870dc0a8508c682ea741ceaf14c5', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b3870dc0a8508c682ea741ceaf14c5&amp;type=folder&amp;" class="icon-folder">assets</a><a href="#" onclick="return toggleContextDropDown(this, '07b3870dc0a8508c682ea741ceaf14c5', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span><ul><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '07b38828c0a8508c682ea741e6f99d3e', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38828c0a8508c682ea741e6f99d3e&amp;type=folder&amp;" class="icon-folder">css</a><a href="#" onclick="return toggleContextDropDown(this, '07b38828c0a8508c682ea741e6f99d3e', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '07b38880c0a8508c682ea741d3b136e3', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38880c0a8508c682ea741d3b136e3&amp;type=folder&amp;" class="icon-folder">img</a><a href="#" onclick="return toggleContextDropDown(this, '07b38880c0a8508c682ea741d3b136e3', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-minus-square-o" onclick="toggleChildren(this, '07b38743c0a8508c682ea74157ad8ab4', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38743c0a8508c682ea74157ad8ab4&amp;type=folder&amp;" class="icon-folder">js</a><a href="#" onclick="return toggleContextDropDown(this, '07b38743c0a8508c682ea74157ad8ab4', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span><ul><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b3877bc0a8508c682ea74148d32539&amp;type=file&amp;" id="highlight" class="icon-file"><span class=" highlight">respond.proxy.gif</span></a><a href="#" onclick="return toggleContextDropDown(this, '07b3877bc0a8508c682ea74148d32539', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b387c1c0a8508c682ea74110c0863a&amp;type=file&amp;" class="icon-file">respond.proxy.js</a><a href="#" onclick="return toggleContextDropDown(this, '07b387c1c0a8508c682ea74110c0863a', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b38800c0a8508c682ea741318685a3&amp;type=file&amp;" class="icon-file">site.js</a><a href="#" onclick="return toggleContextDropDown(this, '07b38800c0a8508c682ea741318685a3', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span></li></ul></li></ul></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '81fb9af0c0a8508c66bb26ff6b1c4e8f', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=81fb9af0c0a8508c66bb26ff6b1c4e8f&amp;type=folder&amp;" class="icon-folder">brand-examples</a><a href="#" onclick="return toggleContextDropDown(this, '81fb9af0c0a8508c66bb26ff6b1c4e8f', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, 'bbf2664ec0a8508c3abbe647abf2693f', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=bbf2664ec0a8508c3abbe647abf2693f&amp;type=folder&amp;" class="icon-folder">examples</a><a href="#" onclick="return toggleContextDropDown(this, 'bbf2664ec0a8508c3abbe647abf2693f', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '886bd13bc0a8508c682ea741a5319d43', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=886bd13bc0a8508c682ea741a5319d43&amp;type=folder&amp;" class="icon-folder">how-tos</a><a href="#" onclick="return toggleContextDropDown(this, '886bd13bc0a8508c682ea741a5319d43', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, 'ac2a49afc0a8508c3abbe647b589dcaf', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=ac2a49afc0a8508c3abbe647b589dcaf&amp;type=folder&amp;" class="icon-folder">template-guide</a><a href="#" onclick="return toggleContextDropDown(this, 'ac2a49afc0a8508c3abbe647b589dcaf', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="container-node"><div class="fa nav-icon fa-plus-square-o" onclick="toggleChildren(this, '1e1df4e5c0a8508c7acfc0e22f7382ad', 'folder', '', 'false'); return false;"></div><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=1e1df4e5c0a8508c7acfc0e22f7382ad&amp;type=folder&amp;" class="icon-folder">wysiwyg</a><a href="#" onclick="return toggleContextDropDown(this, '1e1df4e5c0a8508c7acfc0e22f7382ad', 'folder');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=f129d119c0a8508c7acfc0e20e430484&amp;type=page&amp;" class="icon-page">access</a><a href="#" onclick="return toggleContextDropDown(this, 'f129d119c0a8508c7acfc0e20e430484', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=04024799c0a8508c3abbe6478ca756f6&amp;type=page&amp;" class="icon-page">blank</a><a href="#" onclick="return toggleContextDropDown(this, '04024799c0a8508c3abbe6478ca756f6', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b39271c0a8508c682ea74159d4fb71&amp;type=page&amp;" class="icon-page">index</a><a href="#" onclick="return toggleContextDropDown(this, '07b39271c0a8508c682ea74159d4fb71', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=245a8ca1c0a8508c3413464286838664&amp;type=page&amp;" class="icon-page">news</a><a href="#" onclick="return toggleContextDropDown(this, '245a8ca1c0a8508c3413464286838664', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=07b386cbc0a8508c682ea741a3e1ad94&amp;type=file&amp;" class="icon-file">robots.txt</a><a href="#" onclick="return toggleContextDropDown(this, '07b386cbc0a8508c682ea741a3e1ad94', 'file');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=3353249bc0a8508c7b93bb7e05e28020&amp;type=page&amp;" class="icon-page">snippet</a><a href="#" onclick="return toggleContextDropDown(this, '3353249bc0a8508c7b93bb7e05e28020', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li><li class="node"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=f5af7e2fc0a8508c6ff116b1fe377162&amp;type=page&amp;" class="icon-page">test</a><a href="#" onclick="return toggleContextDropDown(this, 'f5af7e2fc0a8508c6ff116b1fe377162', 'page');" class="icon-context-drop-down-arrow">&#160;</a></span></li></ul></li></ul>
+  
+			  </div>
+				<div id="main-wrapper">
+					
+
+
+
+					<div id="show-hide"><a href="#" title="Toggle Side Bar"></a></div>
+					<div id="main">
+						<h1>
+							<span id="help">
+								
+	
+  
+    
+		<a href="http://hannonhill.com/kb?id=1024&amp;version=VERSION" onclick="return openAndFocus(this.href, 'contextual_help');">Learn More</a>
+	
+  
+
+
+							</span>
+							
+	  
+  <!-- if there is a DOM present use the name of the DOM's entity type -->
+  
+    <span class="icon-file" >
+      <a href="/entity/open.act?id=07b38615c0a8508c682ea7418bf7301d&amp;type=folder">/</a><a href="/entity/open.act?id=07b3870dc0a8508c682ea741ceaf14c5&amp;type=folder">assets</a>/<a href="/entity/open.act?id=07b38743c0a8508c682ea74157ad8ab4&amp;type=folder">js</a>/<a href="/entity/open.act?id=07b3877bc0a8508c682ea74148d32539&amp;type=file">respond.proxy.gif</a>            
+    </span>
+  
+  
+
+
+						</h1>
+						
+	
+  
+    
+<div id="tabs">
+<ul>
+
+  
+    <li class="selected">
+      
+      
+      
+      
+        <a href="/entity/open.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="v" class="cascade-tab tab-view cascade-tab-allowsDraft-true"><em>V</em>iew</a>
+      
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        <a href="/entity/edit.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="e" class="cascade-tab tab-edit cascade-tab-allowsDraft-true"><em>E</em>dit</a>
+      
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        <a href="/entity/move.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="m" class="cascade-tab tab-move cascade-tab-allowsDraft-false"><em>M</em>ove/Rename</a>
+      
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        <a href="/entity/copy.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="y" class="cascade-tab tab-copy cascade-tab-allowsDraft-false">Cop<em>y</em></a>
+      
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        <a href="/entity/publish.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="p" class="cascade-tab tab-publish cascade-tab-allowsDraft-false"><em>P</em>ublish</a>
+      
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        <a href="/entity/relationships.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="l" class="cascade-tab tab-subscribers cascade-tab-allowsDraft-false">Re<em>l</em>ationships</a>
+      
+      
+    </li>
+  
+
+  
+
+  
+    
+
+    <li>
+      <a href="#" onclick="toggleDisplay('advanced-links', this); return false">More <img src="/css/images/arrow-right-dark.png" class="icon" alt="Right arrow" /></a>
+      <div id="advanced-links-holder">
+        <ul id="advanced-links" style="display: none;">
+          
+            <li>
+              
+              
+              
+                <a href="/entity/delete.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="d" class="cascade-tab tab-delete cascade-tab-allowsDraft-false"><em>D</em>elete</a>
+              
+              
+            </li>
+          
+            <li>
+              
+              
+              
+                <a href="/entity/access.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="c" class="cascade-tab tab-access cascade-tab-allowsDraft-false">A<em>c</em>cess</a>
+              
+              
+            </li>
+          
+            <li>
+              
+              
+              
+                <a href="/entity/audit.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="u" class="cascade-tab tab-audits cascade-tab-allowsDraft-false">A<em>u</em>dits</a>
+              
+              
+            </li>
+          
+            <li>
+              
+              
+              
+                <a href="/entity/reference.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="f" class="cascade-tab tab-reference cascade-tab-allowsDraft-false">Re<em>f</em>erence</a>
+              
+              
+            </li>
+          
+            <li>
+              
+              
+              
+                <a href="/entity/versions.act?type=file&amp;id=07b3877bc0a8508c682ea74148d32539" accesskey="r" class="cascade-tab tab-versions cascade-tab-allowsDraft-false">Ve<em>r</em>sions</a>
+              
+              
+            </li>
+          	
+        </ul>
+      </div>
+    </li>
+  
+</ul>
+</div>
+
+
+  
+
+
+						
+	
+  
+    
+
+	
+
+<div id="panes">
+	<ul>
+		
+		
+			<li  ><a href="#">
+				Content
+			</a></li>
+		
+		
+			<li  ><a href="#">
+				Properties
+			</a></li>
+		
+		
+			
+				<li  ><a href="#">
+					Lock
+				</a></li>
+			
+		
+		
+	
+	</ul>
+</div>
+  
+
+
+						<div id="center-stage">
+							
+	
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+        
+       
+    
+        
+    
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+    
+    
+    
+		<div class="pane">
+
+			<div id="content-render">
+				
+					
+					
+						<a href="/render/file.act?forceMime=true&amp;isImage=true&amp;type=file&amp;id=07b3877bc0a8508c682ea74148d32539">View unstyled content</a>		
+					
+						
+				<a href="/render/file.act?id=07b3877bc0a8508c682ea74148d32539&amp;type=file&amp;forceDownload=true&amp;rewrite=false" class="icon-down show-inline">Download
+          <span class="disabled">(35 Bytes)</span></a>        
+			</div>
+		
+</div>
+
+		<div class="pane" style="display: none;">
+
+      
+			
+
+	<div class="key-value">
+	<h2>System Metadata</h2>
+	<ul>
+		
+		<li>
+	<label >Created By</label>
+	<span>
+			<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=mdcarter&amp;type=user" class="icon-user">mdcarter</a><a href="#" onclick="return toggleContextDropDown(this, 'mdcarter', 'user');" class="icon-context-drop-down-arrow">&#160;</a></span>
+		</span>
+</li>
+		
+		<li>
+	<label >Created On</label>
+	<span>
+			
+				Jun 18, 2015 11:24 AM
+			
+		</span>
+</li>
+		
+		<li>
+	<label >Last Modified By</label>
+	<span>
+			<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=mdcarter&amp;type=user" class="icon-user">mdcarter</a><a href="#" onclick="return toggleContextDropDown(this, 'mdcarter', 'user');" class="icon-context-drop-down-arrow">&#160;</a></span>
+		</span>
+</li>
+		
+		<li>
+	<label >Last Modified On</label>
+	<span>
+			
+				Jun 18, 2015 11:24 AM
+			
+		</span>
+</li>
+
+		<li>
+	<label >Last Published By</label>
+	<span>
+			
+				<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=mdcarter&amp;type=user" class="icon-user">mdcarter</a><a href="#" onclick="return toggleContextDropDown(this, 'mdcarter', 'user');" class="icon-context-drop-down-arrow">&#160;</a></span>
+			
+		</span>
+</li>
+				
+		<li>
+	<label >Last Published On</label>
+	<span>
+			
+				
+					Aug 15, 2016 9:01 AM
+				
+			
+		</span>
+</li>
+
+    
+      
+
+
+<li>
+	<label >Content Owner</label>
+	<span>
+  
+    
+      
+    
+  
+  
+    
+      <span id="owner-assignment" data-current-username="jdryden">
+        
+          
+          
+          
+          
+          
+          
+          
+          
+        
+
+
+
+
+
+
+
+
+
+<input type="hidden" name="ownerId" value="" id="fieldhidden_ownerId" onchange="changeContentOwner()"/>
+
+  
+    
+      <a href="#" title="Clear selection" onclick="cancelUserChooserSelection('ownerId')" class="icon-cancel"></a>
+    
+		<a 
+			class="icon-user"
+			title="Select User (New Window)"
+			href="#"
+			onclick="window.open('/security/browse.act?fieldId=ownerId&amp;restrictToType=&amp;restrictToValue=','securitychooser','height=370,width=700,status=1,scrollbars=1,resizable=1');"
+		    >[<span id="field_ownerId"></span>]
+		</a>
+	
+	
+
+<a name="ownerId"></a>
+        
+        <a href="#" onclick="assignOwnerToMe()" id="assign-to-me" style="">
+          Assign to me
+        </a>
+        <span class="ajax-loading-inline" id="owner-loading"></span>
+        <span id="owner-save-success">
+          <i class="fa fa-check fa-lg text-success"></i> Saved</span>
+        <span id="owner-save-failed">
+          <i class="fa fa-exclamation-circle fa-lg text-error"></i> <span id="owner-save-error-message"></span>
+        </span>
+      </span>
+    
+    
+  
+</span>
+</li>
+    
+
+		
+		
+	
+	</ul>
+</div>
+
+
+			
+<div class="key-value">
+	<h2>User Metadata</h2>
+	<ul>
+		
+	<li>
+	<label >Display Name</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >Title</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >Summary</label>
+	<span>&#160;</span>
+</li>
+
+	<li>
+	<label >Teaser</label>
+	<span>&#160;</span>
+</li>
+
+	<li>
+	<label >Keywords</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >Description</label>
+	<span>&#160;</span>
+</li>
+
+	<li>
+	<label >Author</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >Review Date</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >Start Date</label>
+	<span>&#160;</span>
+</li>
+	
+	<li>
+	<label >End Date</label>
+	<span>&#160;</span>
+</li>
+
+	</ul>
+</div>
+
+			
+<div class="key-value">
+	<h2>Custom Metadata</h2>
+	<ul>
+		
+	<li>
+	<label >Metadata Set</label>
+	<span>
+	
+			<span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=35758fc97f0000010020a2395e0d4e60&amp;type=metadataset" class="icon-metadataset">_common:Default</a><a href="#" onclick="return toggleContextDropDown(this, '35758fc97f0000010020a2395e0d4e60', 'metadataset');" class="icon-context-drop-down-arrow">&#160;</a></span>
+		
+		
+	</span>
+</li>
+	
+		
+	
+
+	</ul>
+</div>
+			
+
+	<div class="key-value">
+	<h2>Access Rights</h2>
+	<ul>
+		
+		<li>
+	<label >All</label>
+	<span>
+			READ
+		</span>
+</li>
+		<li>
+	<label >Read</label>
+	<span>&#160;</span>
+</li>
+		<li>
+	<label >Write</label>
+	<span>
+			
+				
+					
+						
+							
+								<span style="display:block; padding-bottom:4px; margin-left: 0;"><span class="link-with-context" style="margin-left:0;"><a href="/entity/open.act?id=mdcarter&amp;type=user" class="icon-user">mdcarter</a><a href="#" onclick="return toggleContextDropDown(this, 'mdcarter', 'user');" class="icon-context-drop-down-arrow">&#160;</a></span></span>
+							
+						
+					
+					
+				
+			
+		</span>
+</li>
+	
+	</ul>
+</div>
+
+
+		
+</div>
+
+		
+			<div class="pane" style="display: none;">
+
+				
+
+
+
+
+
+
+
+
+<div class="key-value">
+	<h2>Actions</h2>
+	<ul>
+		
+
+	
+		<li>
+	<label >Check-out</label>
+	<span>
+			<a href="/entity/submitlock.act?action=co&amp;id=07b3877bc0a8508c682ea74148d32539&amp;type=file">Check-out this asset</a>
+		</span>
+</li>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+	</ul>
+</div>
+			
+</div>
+
+		
+		
+
+	
+  
+
+ 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="copyright">
+					<a href="http://www.hannonhill.com" title="Visit the Hannon Hill site">&#169; 2015 Hannon Hill Corporation</a>
+				</div>
+				<div id="organization">UNM Web Content Management System</div>
+				<div id="utility-nav">
+					<ul>
+						<li>Cascade Server v7.14.2 | </li>
+						<li><a title="RSS" class="rss" href="/rss.act?feedKey=workflows&amp;userHash=0edea82ac0a8508c082f902803c9162d"> </a> </li>
+						
+						
+						<li>| <a href="/home.act" title="Access key h">Home</a></li>
+						
+						
+						<li>| <a href="/entity/bottommenu.act" accesskey="1" title="Access key">Menu</a></li>
+						
+						
+						<li>| <a href="/logoff.act" accesskey="2" title="Access key">Log Out</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    <div style="display:none;" id="draft-delete-confirm" title="Discard Draft">Are you sure you want to discard your draft? Any changes made in this draft will be lost.</div>
+	
+	</body>
+</html>
