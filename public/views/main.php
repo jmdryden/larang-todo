@@ -7,7 +7,8 @@
     </div>
     <div class="col-lg-10 ">
     <br />
-        <uib-tabset type="pills">
+        <!-- https://angular-ui.github.io/bootstrap/ -->        
+        <uib-tabset type="pills">             
             <uib-tab heading="Active Tasks">
                 <h3>Your active tasks</h3>
 

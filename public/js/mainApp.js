@@ -1,14 +1,17 @@
 /* 
  * This is the controller to consume the REST API within angular and use the Angular service
  * Note that the todoService is injected as a param in the mainApp definition
+ * note declared dependency on the ui.bootstrap module for bootstrap components written in pure ajs
+ * https://angular-ui.github.io/bootstrap/
 */
-var app = angular.module('mainApp', ['mainRoutes', 'todoService', 'ngAnimate', 'toastr', 'ui.bootstrap']);
+var app = angular.module('mainApp', ['mainRoutes', 'todoService', 'ngAnimate', 'toastr', 'ui.bootstrap', 'services.breadcrumbs']);
 
 //note the way that you add dependencies to your module (like toastr)
-app.controller('mainController', ['$scope', '$http', 'toastr', 'TodoService', function($scope, $http, toastr, TodoService) {
+app.controller('mainController', ['$scope', '$http', 'toastr', 'TodoService', 'breadcrumbs', function($scope, $http, toastr, TodoService, breadcrumbs) {
     $scope.lists = [];
     $scope.completedTodos = [];
     $scope.allTodos = [];
+    $scope.breadcrumbs = breadcrumbs;
  
     var initializeTodos = function() {
         TodoService.getActiveTodos().success(function (data) {
@@ -62,6 +65,6 @@ app.controller('mainController', ['$scope', '$http', 'toastr', 'TodoService', fu
  
             //todo: logic here...
         }
-    }
+    }    
  
 }]);

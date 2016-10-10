@@ -8,6 +8,8 @@ class TodoController extends Controller
 {
     /**
      * Display a listing of the resource.
+     * We create a todoService in ajs that is injected into the mainApp as a dependency. and access these
+     * controller methods there for the ajs bindings.
      *
      * @return \Illuminate\Http\Response
      */

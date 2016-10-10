@@ -6,11 +6,9 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <title>Laravel 5 | The University of New Mexico</title>        
         <link href="//webcore.unm.edu/v1/images/unm.ico" rel="shortcut icon"/>
-        
         <link href="//webcore.unm.edu/dev/css/unm-styles.min.css" rel="stylesheet"/>
         <link href="../css/site-styles.css" media="screen" rel="stylesheet" type="text/css"/>
-        <script src="//webcore.unm.edu/dev/js/unm-scripts.min.js" type="text/javascript"></script>
-        <script src="../js/site.js" type="text/javascript"></script>
+        <script src="../js/unm-scripts.min.js" type="text/javascript"></script>        
         <!-- Site Meta - put site specific css, javascript, etc. here-->
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -30,16 +28,14 @@
         <!-- toaster animations -->
         <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
 	<link rel="stylesheet" href="https://npmcdn.com/angular-toastr/dist/angular-toastr.css" />
-        <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="../content/css/style.css">
-	<link rel="stylesheet" type="text/css" href="../content/css/helpers.css">
+        
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/helpers.css">
 	<script type="text/javascript" src="../js/index.js"></script>
 	<script type="text/javascript" src="../js/services/todoService.js"></script>
 	<script type="text/javascript" src="../js/mainRoutes.js"></script>
 	<script type="text/javascript" src="../js/mainApp.js"></script>
+        <script type="text/javascript" src="../js/services/breadcrumbs.js"></script>
         <!-- end Angular scripts -->
 
     </head>
@@ -93,7 +89,8 @@
                     <div class="navbar navbar-top" id="horiz-nav">
                         <nav class="navbar-collapse collapse" id="horz-nav" role="navigation">
                             <ul class="nav navbar-nav" role="menubar">
-                                <li><a class=" active" href="index.html" title="Home">Home</a></li>
+                                
+                                <li><a class=" active" href="#" title="Home">Home</a></li>
                                 <li class="dropdown"><a aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="how-tos/login--overview.html">How To's<span class="caret">&#160;</span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="how-tos/login--overview.html" title="How To's - Login &amp; Overview">Login &amp; Overview</a></li>
@@ -126,7 +123,7 @@
                                         <li><a href="template-guide/page-level-css.html" title="Template Guide - Page Level CSS">Page Level CSS</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="wysiwyg/index.html">WYSIWYG Editor</a></li>                            
+                                <li class="dropdown"><a href="#about">About</a></li>                            
                             </ul>
                         </nav>
                     </div>
@@ -135,21 +132,38 @@
             <div id="upper">
                 <div class="container"><!--UPPER--></div>                
             </div>
-            <div id="breadcrumbs">
+            
+            <div id="breadcrumbs"> <!-- V2 breadcrumb -->
                 <div class="container">
-                    <ul class="breadcrumb hidden-xs" id="unm_breadcrumbs">
-                        <li class="unm_home"><a href="http://www.unm.edu">UNM</a></li>
-                        <li>Home</li>
+                    <ul class="breadcrumb hidden-xs" id="unm_breadcrumbs">                        
+                        <li class="unm_home"><a href="http://www.unm.edu">UNM</a></li>                        
+                        <li>Home</li>                        
                     </ul>
                 </div>
+            </div>            
+            
+            <div> <!-- new angular breadcrumb -->            
+                <ul class="breadcrumb">
+                    <li ng-repeat="breadcrumb in breadcrumbs.getAll()">
+                      <span class="divider">/</span>
+                      <ng-switch on="$last">
+                        <span ng-switch-when="true">{{breadcrumb.name}}</span>
+                        <span ng-switch-default><a href="{{breadcrumb.path}}">{{breadcrumb.name}}</a></span>
+                       </ng-switch>
+                    </li>
+               </ul>
             </div>
+            
             <div id="main">
                 <div class="container layout" id="cs">
                     <div class="row">
                         <div id="primary">
                             <div class="alert alert-danger"><p class="lead">Hola world! Starter Site using Laravel 5.2 and AngularJS.</p></div>
+                            <p>Congratulations, you've downloaded the Laravel 5.2 Angular Skeleton.</p>
+                            
+                            <!-- Inject Angular Views -->
                             <ng-view></ng-view>
-                            <p>Note: Requires PHP 5.6, Laravel 5.2, Composer and MySQL.</p>
+                            
                             <hr/>
                             <div class="row">
                                 <div class="col-md-6 unm-cherry"><h2>How To's</h2>
