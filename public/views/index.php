@@ -20,10 +20,10 @@
         <![endif]-->
         
         <!-- Angular libraries -->
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
-	<script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
-	<script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular-animate.min.js"></script>
+        <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.5.7/angular.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.5.7/angular-route.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.5.8/angular-animate.min.js"></script>
 	<script type="text/javascript" src="../js/libraries/ui-bootstrap-tpls-2.0.0.min.js"></script>
         <!-- toaster animations -->
         <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>

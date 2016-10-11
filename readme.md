@@ -20,8 +20,10 @@ Both AngularJS and the Laravel framework are open-sourced software licensed unde
 
 ## Installation
 
-1. Requires PHP 5.6, Apache 2, mySQL 5
+1. Requires PHP 5.6, Apache 2, mySQL 5, Composer
 2. composer create-project laravel/laravel=5.2
 3. git clone  git@github.com:jmdryden/larang-todo.git
 4. update database settings in .env
 5. php artisan migrate
+6. Note: Uses the AngularJS modules route, animate and toaster installed via the Angular CDN. This is fine for sandboxing. 
+For production you might consider installing the Angular dependencies via Bower or NPM.
